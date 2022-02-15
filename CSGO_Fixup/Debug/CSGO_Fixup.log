@@ -1,0 +1,3 @@
+﻿  dllmain.cpp
+C:\Users\user\source\repos\CSGO_Fixup\CSGO_Fixup\dllmain.cpp(359,28): warning C4101: 'e': unreferenced local variable
+  CSGO_Fixup.vcxproj -> C:\Users\user\source\repos\CSGO_Fixup\Debug\CSGO_Fixup.dll

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{449f9435-5d04-49af-8fbb-a4de12e3435c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{b59c3d7b-04a2-4b48-b8ba-ffa08cf83d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\MemoryTools">
+      <UniqueIdentifier>{d8d0ad03-0cdb-4ce9-a667-7a2659074064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\MinHook">
+      <UniqueIdentifier>{2aa457d5-7a25-45da-8e97-025794881060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\MinHook\hde">
+      <UniqueIdentifier>{7363cad6-a566-48cd-bdca-b962c19e334a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MemoryTools\MemoryTools.h">
+      <Filter>ThirdParty\MemoryTools</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\bitbuf.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\basetypes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Platform.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\commonmacros.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\bitvec.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\coordsize.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\worldsize.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\buffer.h">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\MinHook.h">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\trampoline.h">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\hde\hde32.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\hde\hde64.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\hde\pstdint.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\hde\table32.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Thirdparty\MinHook\hde\table64.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\networkstringtable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\bitbuf.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\newbitbuf.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\MinHook\buffer.c">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\MinHook\hook.c">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\MinHook\trampoline.c">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\MinHook\hde\hde32.c">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Thirdparty\MinHook\hde\hde64.c">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Thirdparty\MemoryTools\MemoryTools.lib">
+      <Filter>ThirdParty\MemoryTools</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

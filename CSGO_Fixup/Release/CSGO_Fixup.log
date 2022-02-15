@@ -1,0 +1,16 @@
+﻿  dllmain.cpp
+C:\Users\user\source\repos\CSGO_Fixup\CSGO_Fixup\dllmain.cpp(357,28): warning C4101: 'e': unreferenced local variable
+  bitbuf.cpp
+  newbitbuf.cpp
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+MemoryTools.lib(MemoryTools.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in dllmain.obj
+MemoryTools.lib(MemoryTools.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in dllmain.obj
+MemoryTools.lib(MemoryTools.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+MemoryTools.lib(MemoryTools.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+MemoryTools.lib(MemoryTools.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReport
+C:\Users\user\source\repos\CSGO_Fixup\Release\CSGO_Fixup.dll : fatal error LNK1120: 2 unresolved externals
